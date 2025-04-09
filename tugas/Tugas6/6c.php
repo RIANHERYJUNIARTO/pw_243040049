@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    if ($username === "admin" && $password === "adm") {
+    if ($username === "Hery" && $password === "123") {
         $_SESSION['loggedin'] = true;
 
         exit();
@@ -36,6 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .login-container {
+            
             background-color: orange;
             padding: 20px;
             text-align: center;
